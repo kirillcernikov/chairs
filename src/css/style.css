@@ -1,0 +1,416 @@
+@font-face {
+  font-family: Circe;
+  src: url(../fonts/Circe-Light.eot);
+  src: url(../fonts/Circe-Light.ttf);
+  src: url(../fonts/Circe-Light.woff);
+}
+
+@font-face {
+  font-family: Circe;
+  src: url(../fonts/Circe-Regular.eot);
+  src: url(../fonts/Circe-Regular.ttf);
+  src: url(../fonts/Circe-Regular.woff);
+}
+
+@font-face {
+  font-family: Circe;
+  src: url(../fonts/Circe-Bold.eot);
+  src: url(../fonts/Circe-Bold.ttf);
+  src: url(../fonts/Circe-Bold.woff);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Circe, serif;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.button {
+  background-color: #ffaf02;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.form-content {
+  margin-top: 40px;
+}
+
+.form-name, .form-phone, .form-button {
+  border-radius: 28px;
+  outline: none;
+  font-size: 15px;
+  font-weight: 300;
+  width: 270px;
+}
+
+.form-name {
+  background: url(../images/name-icon.svg) left 30px center no-repeat;
+  color: #999999;
+  padding: 18.1px 0 18.1px 60px;
+  margin-right: 30px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+}
+
+.form-phone {
+  background: url(../images/phone-icon.svg) left 30px center no-repeat;
+  color: #999999;
+  padding: 18.1px 0 18.1px 60px;
+  margin-right: 30px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+}
+
+.form-button {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 20.7px 0;
+}
+
+.form-subtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  text-align: center;
+}
+
+.form-subtext__recall {
+  color: #001e28;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-right: 32px;
+}
+
+.form-subtext__number {
+  color: #001e28;
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.header {
+  height: 85px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo__text {
+  width: 150px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.header-logo__img {
+  padding-right: 29px;
+}
+
+.header-relations {
+  display: flex;
+  align-items: center;
+}
+
+.header-relations__link {
+  display: inline-block;
+  color: #001e28;
+  font-size: 17px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header-relations__text {
+  color: #001e28;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.header-relations__button {
+  margin-left: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 16px 19px 19px 20px;
+  height: 45px;
+  border-radius: 23px;
+}
+
+.main-section {
+  min-height: 685px;
+  background: url(../images/main-bg.png) center center no-repeat;
+}
+
+.main-section__title {
+  color: #001e28;
+  font-family: 'Roboto Slab', serif;
+  font-size: 57px;
+  font-weight: 700;
+}
+
+.main-section__subtitle {
+  color: #00222d;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  max-width: 460px;
+}
+
+.main-section__list {
+  width: 50%;
+}
+
+.main-section__list ul {
+  margin-top: 84px;
+  padding-left: 0;
+}
+
+.main-section__items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 46px;
+  color: #001e28;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.main-section__icon {
+  margin-right: 29px;
+}
+
+.main-section__subtext {
+  margin-left: 80px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #001e28;
+}
+
+.consultation {
+  height: 580px;
+  background: url(../images/consultation-bg.png) center top -75px no-repeat;
+}
+
+.consultation-content {
+  text-align: center;
+}
+
+.consultation-content__title {
+  color: #001e28;
+  font-family: "Roboto Slab";
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 29px;
+}
+
+.consultation-content__subtitle {
+  color: #001e28;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.consultation-content__line {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.consultation-content__subtext {
+  color: #001e28;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.voucher-content {
+  text-align: center;
+}
+
+.voucher-content__title {
+  color: #001e28;
+  font-family: "Roboto Slab";
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.voucher-content__subtitle {
+  color: #001e28;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.voucher-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  border-bottom: 5px solid #ffaf02;
+}
+
+.voucher-navigation__places {
+  width: 370px;
+  border-radius: 20px 20px 0 0;
+  background-color: #d8f0f0;
+  color: #001e28;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 19px 0;
+  transition: 1s;
+}
+
+.voucher-navigation__places:hover {
+  background-color: #ffaf02;
+  color: #fff;
+}
+
+.voucher-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.voucher-item {
+  width: 370px;
+  height: 415px;
+  border: 2px solid #d8f0f0;
+  background: url(../images/item-bg.png) center top 15px no-repeat;
+  position: relative;
+}
+
+.voucher-item__bg {
+  background-image: linear-gradient(to top, #001e28 0%, rgba(0, 30, 40, 0) 100%);
+  position: absolute;
+  top: 184px;
+  left: 13px;
+  z-index: 1;
+  width: 340px;
+  height: 75px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.voucher-item__location, .voucher-item__age {
+  display: flex;
+  margin-left: 9px;
+  align-items: center;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.voucher-item__age {
+  margin-left: 60px;
+}
+
+.voucher-item__stats {
+  display: flex;
+}
+
+.voucher-item__icon {
+  padding-right: 10px;
+}
+
+.voucher-about {
+  position: relative;
+  text-align: center;
+  top: 260px;
+  margin-top: 30px;
+}
+
+.voucher-about__title {
+  color: #001e28;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.voucher-about__subtext {
+  color: #001e28;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+.voucher-about__info {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #001e28;
+  margin-bottom: 25px;
+}
+
+.voucher-about__info:after {
+  content: "";
+  display: block;
+  margin-top: 2px;
+  width: 95px;
+  height: 6px;
+  background-color: #ffaf02;
+}
+
+.voucher-about__info:hover:after {
+  margin-top: 2px;
+  width: 95px;
+  height: 16px;
+  background-color: #ffaf02;
+}
+
+.offer {
+  background-image: linear-gradient(-211deg, #d8f0f0 0%, #fdfde0 100%);
+  background-color: #d8f0f0;
+  margin-top: 100px;
+}
+
+.offer-content {
+  text-align: center;
+}
+
+.offer-content__title {
+  color: #001e28;
+  font-family: "Roboto Slab";
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 100px;
+}
+
+.offer-content__subtitle {
+  color: #001e28;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 41px;
+}
+
+.offer-content__text {
+  background-color: #ffaf02;
+  color: #fff;
+  padding: 0 5px 0 5px;
+}
